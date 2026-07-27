@@ -1,0 +1,9 @@
+data/
+
+data/
+weights/
+
+weights/
+notebooks/**
+!notebooks/
+!notebooks/**/*.ipynb
