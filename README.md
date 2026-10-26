@@ -23,7 +23,7 @@ See https://github.com/micah-r-hysong/AoU_PRS_calc for workbench 2.0 version
 Notebooks 014 through 025. 
 
 ### PsRS construction
-030_out_of_fold_PsRS_joint_modeling_AUC.ipynb Disease-specific polysocial risk scores (PsRS) were constructed using an elastic net–regularized logistic regression model on individual poverty, individual education, and the seven area-level SDoH measures. An 80/20 training testing split was used with five-fold cross-validation. Out-of-fold predictions were pooled across all five folds, resulting in one independent out-of-sample prediction per individual for each model. This code performs a paired bootstrap comparison of out-of-fold (OOF) AUCs for the genetic and joint models. ORs for PsRS were also obtained. 
+030_out_of_fold_PsRS_joint_modeling_AUC.ipynb Disease-specific polysocial risk scores (PsRS) were constructed using an elastic net–regularized logistic regression model on individual poverty, individual education, and the seven area-level SDoH measures. An 80/20 training testing split was used with five-fold cross-validation. Out-of-fold predictions were pooled across all five folds, resulting in one independent out-of-sample prediction per individual for each model. This code performs a paired bootstrap comparison of out-of-fold (OOF) AUCs for the genetic and joint models. ORs for PsRS were also obtained. 031_expected_vs_observed_calibration.ipynb compares calibration metrics from the genetic and joint models. 
 
 ### PsRS external validation
 A PsRS was also constructed using a full-data refit in 045_generate_PsRS_external_validation.ipynb. These weights were used for external validation as evaluated in 050_external_validation_analysis.ipynb. 
